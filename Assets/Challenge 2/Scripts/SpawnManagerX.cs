@@ -2,6 +2,7 @@
 
 public class SpawnManagerX : MonoBehaviour
 {
+    // Declaring and Initializing variables.
     public GameObject[] ballPrefabs;
 
     private const float SpawnLimitXLeft = -22;
@@ -11,7 +12,7 @@ public class SpawnManagerX : MonoBehaviour
     private const float StartDelay = 1.0f;
     private float _randomSpawnTime;
 
-    // Start is called before the first frame update
+    // Start is called before the first frame update.
     private void Start()
     {
         // Invoking the method to randomize the spawn times.

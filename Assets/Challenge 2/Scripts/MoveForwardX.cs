@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MoveForwardX : MonoBehaviour
 {
+    // Declaring the variable.
     public float speed;
 
     // Update is called once per frame
